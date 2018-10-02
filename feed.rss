@@ -13,7 +13,7 @@
   <atom:link href="http://www.fremontcoderdojo.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://www.fremontcoderdojo.com</link>
   <description>A programing club for young people between age 7 and 17.</description>
-	<lastBuildDate>Tue, 26 Jun 2018 23:53:56 GMT</lastBuildDate>
+	<lastBuildDate>Tue, 02 Oct 2018 22:55:36 GMT</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -36,7 +36,7 @@
 <li>Here is the code on <a href="http://codepen.io/thehack/pen/OMmJed/">Codepen</a></li>
 <li>Here is the <a href="/img/html5.pdf">PDF</a></li>
 </ul>
-<p>###NOTE: Code Change! </p>
+<h3 id="note-code-change-">NOTE: Code Change!</h3>
 <p>I&#39;ve changed:</p>
 <pre>setInterval setTimeout and clearInterval</pre> to:
 <pre>window.setInterval, window.setTimeout, and window.clearInterval</pre>
@@ -165,13 +165,13 @@
 
       <guid isPermaLink="true">http://www.fremontcoderdojo.com/2015/01/22/scratch-game-ideas</guid>
 			<description><![CDATA[<p><em>In the past months, we have learned some important <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">skills</a> in Scratch, covering topics like: loops, conditions, keeping score, <a href="/2014/10/30/scratch-tutorial/">responding to the keyboard or mouse</a>, and moving sprites across the screen. Let&#39;s put those skills to use in a cooperative challenge!</em></p>
-<p>###Timeline:</p>
+<h3 id="timeline-">Timeline:</h3>
 <ul>
 <li>We will work on our games on January 22 and February 5. They can also be worked on in-between our meetings.</li>
 <li>Games will be submitted by the end of our meeting on Feburay 5. They will be hosted on our website. </li>
 <li>On February 19 winners will be awarded certificates for different categories, including one winner chosen by you!</li>
 </ul>
-<p>###Guidlines:</p>
+<h3 id="guidlines-">Guidlines:</h3>
 <ul>
 <li>Fun games are challenging, but not impossible to win.</li>
 <li>Your game should have a beginning and an end.</li>
@@ -180,7 +180,7 @@
 <li>If you copy ideas for a script from another project, make sure you can explain how it works. </li>
 <li>Your game should be a co-operative effort of more than one person.</li>
 </ul>
-<p>###Ideas for Inspiration:</p>
+<h3 id="ideas-for-inspiration-">Ideas for Inspiration:</h3>
 <ul>
 <li><a href="http://scratch.mit.edu/projects/10116127/">Falling objects</a></li>
 <li><a href="http://scratch.mit.edu/projects/28557874/">Avoid something</a></li>
@@ -190,8 +190,8 @@
 <li><a href="http://scratch.mit.edu/projects/2865532/">Maze</a></li>
 <li><a href="http://scratch.mit.edu/projects/44493892/">Pong</a></li>
 </ul>
-<p>###Skills
-Do you need to brush up on your skills? Check out these <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">scratch cards</a> for some basic skills.</p>
+<h3 id="skills">Skills</h3>
+<p>Do you need to brush up on your skills? Check out these <a href="http://cdn.scratch.mit.edu/scratchr2/static/__7aa8454d4311dd1140d332d797f6ca21__//pdfs/help/Scratch2Cards.pdf">scratch cards</a> for some basic skills.</p>
 ]]></description>
 		</item>
 		<item>
@@ -227,16 +227,16 @@ Do you need to brush up on your skills? Check out these <a href="http://cdn.scra
 <li>You will learn how functions help you not to repeat yourself.</li>
 <li>You will learn how objects can store and organize lots of different data, like the data in game levels.</li>
 </ol>
-<p>###First some HTML</p>
+<h3 id="first-some-html">First some HTML</h3>
 <script src="https://gist.github.com/anonymous/db710fc6988b95537707.js"></script>
 
 <p>You can easily select, copy, and paste the above html code into the html window on a <a href="http://codepen.io/pen/">new project</a> on codepen.</p>
-<p>###Now the CSS</p>
+<h3 id="now-the-css">Now the CSS</h3>
 <script src="https://gist.github.com/anonymous/d68cd85821b4a15745e9.js"></script>
 
 <p>The code above adds a bit of style to our game. It makes the pictures a consistent size, the text readable, and everything line-up right. Copy and paste it into the CSS window on your codepen project.</p>
-<p>###Finally the Javascript
-Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword &#39;var&#39;. To get started, copy and paste these variables into the &#39;JS&#39; window of your project:</p>
+<h3 id="finally-the-javascript">Finally the Javascript</h3>
+<p>Javascript is what makes the web interactive. We use it to put away some images and add others. It updates the text when you make a decision with a button. You might remember that variable are just containers to store information. In javscript, when you are setting a variable to remember some information for you, you use the keyword &#39;var&#39;. To get started, copy and paste these variables into the &#39;JS&#39; window of your project:</p>
 <script src="https://gist.github.com/anonymous/ee2d6961623662909039.js"></script>
 
 <p>You might have noticed that several of those match the &#39;ids&#39; of our html elements: images, text, input, and buttonBox. We are giving our script a way to remember those elements so that we can do stuff to them with functions later. You will see them again.</p>
@@ -287,7 +287,7 @@ Javascript is what makes the web interactive. We use it to put away some images 
 <li>Use Google Fonts to include a custom font.</li>
 <li>Add your own images to your page, hosted on <a href="http://postimage.org">Postimage.org</a></li>
 </ol>
-<p>###Use Google Fonts</p>
+<h3 id="use-google-fonts">Use Google Fonts</h3>
 <ol>
 <li>Go to <a href="http://google.com/fonts">Google.com/fonts</a></li>
 <li>Scroll or keword-search to find a desired font.</li>
@@ -296,7 +296,7 @@ Javascript is what makes the web interactive. We use it to put away some images 
 <li>Copy and paste the standard link code between the opening and closing head tags on your page.</li>
 <li>Copy and paste the font-family property into your site&#39;s css. <a href="http://codepen.io/thehack/pen/YPWwKP">See Example</a></li>
 </ol>
-<p>###Add images with PostImg.org</p>
+<h3 id="add-images-with-postimg-org">Add images with PostImg.org</h3>
 <ol>
 <li>Go to <a href="http://postimg.org">Postimg.org</a>.</li>
 <li>Use the &#39;browse&#39; button to find and select the image on your computer you want to upload.</li>
@@ -343,20 +343,20 @@ Codepen shortcut: type img, hit TAB, then paste. <a href="http://codepen.io/theh
 			<description><![CDATA[<p><em>You will learn the basic skills needed to create your own game, including sprite movement and collision detection! By the end you will have a cat who meows when she catches her mouse. This will probably take less than half-an-hour to complete.</em></p>
 <img class="pure-img" src="/img/cat_moves11.png">
 
-<p>###Start with a new sprite
-First. Create a new progect on <a href="http://scratch.mit.edu/projects/editor/">the scratch website</a>. You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:</p>
+<h3 id="start-with-a-new-sprite">Start with a new sprite</h3>
+<p>First. Create a new progect on <a href="http://scratch.mit.edu/projects/editor/">the scratch website</a>. You might want to drag out this tutoral page and tile it alongside the scratch page so you can use both without lots of switching back and forth. It might look like this:</p>
 <img class="pure-img" src="/img/cat_moves12.png">
 
 <p>Right-click or control-click &#39;Sprite1&#39; from the &#39;Sprites&#39; window. Select &#39;Delete&#39;.</p>
 <p>Click the icon for &#39;Choose new sprite from library&#39;. <img class="pure-img" src="/img/cat_moves2.png"> Choose &#39;Cat2&#39;.</p>
-<p>###Setting up defaults and the game loop
-Select &#39;Events&#39; under the &#39;Scripts&#39; tab. Drag &#39;when flag clicked&#39; into the script area.</p>
+<h3 id="setting-up-defaults-and-the-game-loop">Setting up defaults and the game loop</h3>
+<p>Select &#39;Events&#39; under the &#39;Scripts&#39; tab. Drag &#39;when flag clicked&#39; into the script area.</p>
 <p>Select &#39;Motion&#39;. Drag and attatch &#39;go to x:0 y:0&#39;. Make sure &#39;x&#39; is set to &#39;0&#39; and &#39;y&#39; is set to &#39;0&#39;.</p>
 <p>Select &#39;Control&#39;. Drag and attatch the &#39;forever&#39; block. This will be our game loop. We will use it later to detect collisions between sprites.</p>
 <img class="pure-img" src="/img/cat_moves1.png">
 
-<p>###Controlling the cat sprite
-Select &#39;Events&#39;. Drag the &#39;when&#39; space key pressed&#39; onto our script window. Do this three more times. In each of those blocks, select the small black triangle and change &#39;space&#39; to &#39;up arrow&#39;, &#39;right arrow&#39;, &#39;down arrow&#39;, and &#39;left arrow&#39;, so that it matches the image below.</p>
+<h3 id="controlling-the-cat-sprite">Controlling the cat sprite</h3>
+<p>Select &#39;Events&#39;. Drag the &#39;when&#39; space key pressed&#39; onto our script window. Do this three more times. In each of those blocks, select the small black triangle and change &#39;space&#39; to &#39;up arrow&#39;, &#39;right arrow&#39;, &#39;down arrow&#39;, and &#39;left arrow&#39;, so that it matches the image below.</p>
 <img class="pure-img" src="/img/cat_moves3.png">
 
 <p>Now select &#39;Motion&#39;. Drag and attatch a &#39;point in Direction&#39; block to each &#39;when <strong>___</strong> key pressed block&#39;.</p>
@@ -368,8 +368,8 @@ Select &#39;Events&#39;. Drag the &#39;when&#39; space key pressed&#39; onto our
 <img class="pure-img" src="/img/cat_moves6.png">
 
 <p>Click the flag and press your arrow keys. The cat should move across the stage!</p>
-<p>###Add a mouse for your cat to catch
-Select the new sprite icon. <img src="/img/cat_moves2.png"></p>
+<h3 id="add-a-mouse-for-your-cat-to-catch">Add a mouse for your cat to catch</h3>
+<p>Select the new sprite icon. <img src="/img/cat_moves2.png"></p>
 <p>Choose &#39;Mouse1&#39;. Move it away from the cat on the stage.</p>
 <img class="pure-img" src="/img/cat_moves7.png">
 
