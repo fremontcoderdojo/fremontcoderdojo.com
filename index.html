@@ -61,7 +61,11 @@
 <h2>Fremont CoderDojo will resume on February 4, 2020. Tickets are Availble for February through June, 2020.</h2>
 
 
-<center><div id="eventbrite-widget-container-90227515929"></div></center>
+<center><!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/fremont-coderdojo-spring-2020-tickets-90227515929" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-90227515929" type="button">Register to Attend (Free)</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -71,19 +75,20 @@
     };
 
     window.EBWidgets.createWidget({
-        // Required
         widgetType: 'checkout',
-        eventId: '71441807369',
-        iframeContainerId: 'eventbrite-widget-container-71441807369',
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        eventId: '90227515929',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-90227515929',
+        onOrderComplete: exampleCallback
     });
 </script>
+	</center>
+
+
 	<br>
 </div>
 <div class="grey ">
+	<br>
 	<div class="container">
 	<h2 id="contact">Contact</h2>
 <p>Questions? Feel free to <a href="mailto:fremont.us@coderdojo.com">email us</a></p>
